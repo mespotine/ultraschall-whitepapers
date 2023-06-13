@@ -1,4 +1,4 @@
-> <img src="media/image1.png" style="width:2.10333in;height:1.31333in" />
+![Alt text](media/image1.png)
 
 # Transkription in Reaper - eine Bestandsaufnahme
 
@@ -47,7 +47,7 @@ Meo-Ada Mespotine
 > \|---\> per VST(Echtzeit Transkription während Aufnahme) \|---\> nach
 > Aufnahme/vorm Schnitt
 
-<u>Während Export:</u>
+## Während Export
 
 > Das Audio wird beim Exportvorgang als Einzelspuren exportiert und per
 > Commandline durch Whisper geschickt und so WebVTTs erstellt. Dann wird
@@ -73,7 +73,7 @@ Meo-Ada Mespotine
 
 - man sieht nicht die transkribierten Texte während des Schnitts
 
-<u>Per VST:</u>
+## Per VST
 
 > Whisper wird in ein VST-Effekt gepackt. Dann wird ein VST pro
 > aufzunehmender Spur eingefügt. Wenn Aufnahme nun gestartet wird, wird
@@ -115,7 +115,7 @@ Tracks for Editing“
   wissen muss, wo die Transkripte hingelandet sind und für welches
   Audiofile welches SRT erstellt wurde
 
-<u>Nach Aufnahme/Vorm Schnitt:</u>
+## Nach Aufnahme/Vorm Schnitt
 
 > Wenn die Aufnahme beendet ist, nutzt man den Schritt „Prepare all
 > Tracks for Editing“, in dem man gefragt wird, ob die Audios nun auch
@@ -187,7 +187,7 @@ Fragen:
 
 > \|---\> als Takemarker
 
-<u>Als Takemarker:</u>
+## Als Takemarker
 
 > Das Transkript existiert nun in wortweiser Form. Wir bilden daraus
 > komplette Sätze und speichern die als Takemarker in den Items ab, pro
@@ -206,12 +206,12 @@ Fragen:
 >
 > \|---\> per Transkriptionseditor
 
-<u>Als Takemarker:</u>
+## Als Takemarker
 
 > Das Projekt wird dann, wie gewohnt, geschnitten, wodurch auch die
 > Takemarker passend „geschnitten“ und geschoben werden.
 
-<u>Per Transkriptionseditor:</u>
+## Per Transkriptionseditor
 
 > Leider mit Reapers derzeitigen Möglichkeiten nicht baubar. Bei
 > Interesse kann ich die Informatiktechnischen Probleme noch skizzieren,
@@ -241,13 +241,13 @@ Fragen:
 > hinauslaufen, dass wir Reapers eigenen Code umschreiben müssten, und
 > da Reaper nicht Open Source ist....geht das nicht.
 
-# Export des Transkripts 
+# Export des Transkripts
 
 > \|---\> per Takemarker
 >
 > \|---\> im Exportprozess(siehe I. Erstellung des Transkripts)
 
-<u>per Takemarker:</u>
+## per Takemarker
 
 > Jetzt kommen wir zu Stelle, weshalb es wichtig ist, dass wir ein
 > wortgenaues Transkript haben.
@@ -288,7 +288,7 @@ Fragen:
 > Die erstellten WebVTTs können wir nun abspeichern, ins MP3 mit
 > exportieren, etc, etc.
 
-Fragen:
+## Fragen
 
 > \- wie bekomme ich die Projektposition der sichtbaren Takemarker
 > heraus? Dies ist wichtig um Transkripte per Track zu erstellen. Die
@@ -312,7 +312,7 @@ mit negativem Zeitoffset(positioniert vor Beginn des Takes)
 > \|---\> Transkripteditor-\>Editing by Text (leider z.Z. nicht baubar
 > mit Reapers Möglichkeiten)
 
-<u>Volltextsuche im geöffneten Projekt:</u>
+## Volltextsuche im geöffneten Projekt
 
 > Wenn man ein wortgenaues Transkript hat, kann man eine Volltextsuche
 > für das geöffnete Projekt anbieten.
@@ -329,13 +329,13 @@ mit negativem Zeitoffset(positioniert vor Beginn des Takes)
 > Dann sucht man nach „bitte schneiden“ und lässt sich die Stellen
 > automagisch mit Edit-Markern versehen.
 
-<u>Volltextsuche in den Projektdateien.rpp:</u>
+## Volltextsuche in den Projektdateien.rpp
 
 > Da die Take-Marker als Klartext in RPP-Files gespeichert werden, kann
 > man auch Volltextsuche in RPP-Files machen. So kann man alle Projekte
 > suchen, in denen „AmigaOS“ gesagt wurde.
 
-<u>Shownote/Kapitelmarkenvorschläge durch GPT-Anbindung:</u>
+## Shownote/Kapitelmarkenvorschläge durch GPT-Anbindung
 
 > Ich vermute mal, das baut Ralf bereits.
 >
@@ -350,7 +350,7 @@ mit negativem Zeitoffset(positioniert vor Beginn des Takes)
 > an Kapitelmarken/Shownotes von GPT gut vorgeschlagen wurden und fügt
 > diese per Mausklick noch ins Projekt ein.
 
-<u>Manuskript mit wortgenauen Shownotes/Kapitelüberschriften:</u>
+## Manuskript mit wortgenauen Shownotes/Kapitelüberschriften
 
 > Wenn wir wortgenaue Transkripte haben und Shownotes und Kapitelmarken,
 > können wir auch gleich das gesamte Transkript als HTML exportieren.
@@ -370,7 +370,7 @@ mit negativem Zeitoffset(positioniert vor Beginn des Takes)
 > (Als Bonus könnt man das auch als LaTeX-Export bauen, für die ganz
 > krassen Nerds...)
 
-<u>Transkripteditor-\>Editing by Text:</u>
+## Transkripteditor-\>Editing by Text
 
 > Leider z.Z. nicht baubar mit Reapers Möglichkeiten, siehe oben in
 > „III. Bearbeiten des Transkripts“
