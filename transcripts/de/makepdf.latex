@@ -479,7 +479,7 @@ $endif$
 
 \usepackage{xcolor}
 \usepackage[left]{lineno}
-\renewcommand{\linenumberfont}{\normalfont\bfseries\tiny\color{blue}}
+\renewcommand{\linenumberfont}{\normalfont\tiny\sffamily\color{blue}}
 \linenumbers
 
 \begin{document}
